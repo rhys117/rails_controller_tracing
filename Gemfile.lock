@@ -9,7 +9,7 @@ PATH
   remote: .
   specs:
     rails_controller_tracing (0.1.0)
-      process_tracer
+      railties
 
 GEM
   remote: https://rubygems.org/
@@ -161,6 +161,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
 
 DEPENDENCIES
   process_tracer!
